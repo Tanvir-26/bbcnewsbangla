@@ -1,0 +1,303 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: banfont;
+}
+@font-face {
+    font-family: banfont;
+    src: url(Shonar.ttf);
+}
+.marginrow{
+    margin-left: 136px;
+    margin-right: 136px;
+}
+.marginrow2{
+    margin-left: 150px;
+    margin-right: 136px;
+}
+.headersection{
+    background-color: #B80000;
+    
+}
+.logo h4{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 15px 0px ;
+    margin-bottom: 0px;
+ 
+}
+
+/* second section */
+.menusection{
+    border-top: 1px solid white;
+}
+.menucontent{
+    background-color: #B80000;
+}
+.menu ul{
+   margin-bottom: 0px;
+   padding-left: 90px;
+}
+.menu ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 9px 5px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 10px 5px;
+    padding-bottom: 6px;
+}
+.menu ul li a:hover{
+    border-bottom: 5px solid white;
+}
+/* third section */
+
+.thirdsection{
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+.thirdimg img{
+    max-width: 100%;
+}
+
+.thirdtext h2 a{
+    font-size: 32px;
+    font-weight: bold;
+    color: #222222;
+    text-decoration: none;
+}
+.thirdcontent:hover .thirdtext h2 a{
+    text-decoration: underline;
+}
+.thirdtext p{
+    font-size: 20px;
+    color: #3F3F42;
+}
+
+.thirdtext h6{
+    font-size: 20px;
+    color: #6E6E73;
+}
+.thirdtext ul{
+    padding-left: 0px;
+}
+.thirdtext ul li{
+    list-style-type: none;
+}
+.thirdtext ul li a{
+    text-decoration: none;
+    color: #222222;
+    font-size: 20px;
+    font-weight: bold;
+}
+.thirdtext ul li a:hover{
+    text-decoration: underline;
+}
+
+/* fourth section */
+
+.fourthimg{
+    max-width: 100%;
+    display: block;
+    margin-bottom: 5px;
+}
+.fourthnews{
+    display: block;
+}
+.fourthnews a{
+    font-size: 20px;
+    color: #242424;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 24px;
+}
+
+.newsdetails p{
+    display: none;
+}
+.newsdetails h6{
+    margin-top: 5px;
+    font-size: 20px;
+    color: #6E6E73;
+}
+
+
+/* fifth section */
+.fifthsection{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.fifthheading h2{
+    position: relative;
+    margin-bottom: 30px;
+}
+.fifthheading h2:after {
+    position: absolute;
+    content: "";
+    height: 1px;
+    background-color: #6E6E73;
+    width: 82.5%;
+    top: 45%;
+    margin-left: 10px;
+    
+}
+/* sixth section */
+.sixthsection{
+    margin-bottom: 30px;
+}
+ 
+.sixthcontent{
+    margin-top: 30px;
+}
+
+/* seventh section */
+.seventhsection{
+    margin-bottom: 30px;
+}
+
+/* eighth section */
+.eighthsection{
+    margin-bottom: 30px;
+}
+/* ninth section */
+.ninthsection{
+    margin-bottom: 30px;
+}
+/* tenth section */
+.tenthsection{
+    margin-bottom: 30px;
+}
+
+.lastlogo{
+    background: #B80000; 
+      height: 60px;
+}
+.lastlogomain a{
+    text-decoration: none;
+    display: inline-block;
+    text-align: right;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 15px 0px ;
+    margin-bottom: 0px;
+    padding-bottom: 2px;
+    margin-left: 150px;
+}
+.lastlogomain a:hover{
+    border-bottom: 5px solid white;
+    cursor: pointer;
+}
+
+
+.text12 ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+.text12 ul li{
+    
+}
+.text12 span{
+    font-size: 55px;
+    color: #B80000;
+}
+.text12 ul li a{
+    text-decoration: none;
+    color: #222222;
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 45px;
+}
+
+.text12 ul li:hover {
+    text-decoration: underline;
+}
+
+
+.thirteensection{
+    margin-bottom: 20px;
+}
+
+.twelvethsection{
+    margin-bottom: 30px;
+}
+
+
+.lastsection{
+    background: #222222;
+}
+.lastrow{
+    border-bottom: 1px solid #6E6E73;
+}
+.lasttext{
+    padding: 10px 0px;
+}
+.lasttext a{
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    
+}
+.lasttext a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.lasttext2 a{
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+.lasttext2 a:hover{
+    text-decoration: underline;
+}
+.lasttext2{
+    padding: 10px 0px;
+    
+}
+.lastofall{
+    border-bottom: 1px solid #6E6E73;
+}
+.copyright{
+    padding: 10px 0px;
+}
+.copyrighttext p{
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+.copyrighttext p a{
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+.copyrighttext p a:hover{
+    text-decoration: underline;
+}
+
+.lastrow{
+    margin-left: 146px;
+    margin-right: 146px;
+}
+
+.lasttext2{
+    margin-left: 144px;
+    margin-right: 146px;
+}
+.copyright{
+    margin-left: 140px;
+    margin-right: 146px;
+}
+
+.fifthcontent:hover .thirdtext h2 a{
+    text-decoration: underline;
+}
